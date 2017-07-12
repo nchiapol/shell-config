@@ -1,0 +1,7 @@
+## use vi mode on commandline
+set editing-mode vi
+
+## allow to search based on partial input
+"\e[A":history-search-backward
+"\e[B":history-search-forward
+
