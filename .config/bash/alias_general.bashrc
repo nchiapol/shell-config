@@ -1,3 +1,5 @@
+# vim: filetype=sh
+
 ## ask before running risky commands
 alias sudo="sudo " # makes sudo use my aliases as well
 alias rm="rm -i"

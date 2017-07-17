@@ -1,3 +1,5 @@
+# vim: filetype=sh
+
 ## Set a fancy prompt
 ## With full path (relative to home)
 red='\e[1;31m'

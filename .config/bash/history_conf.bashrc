@@ -1,3 +1,5 @@
+# vim: filetype=sh
+
 # history configurations
 # **********************
     ## delete last entry from history

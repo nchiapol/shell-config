@@ -4,13 +4,13 @@
 [ -z "$PS1" ] && return
 
 
-if [ -f $HOME/.config/bash/main_sys ]; then
-    . $HOME/.config/bash/main_sys
+if [ -d $HOME/.config/bash/ ]; then
+    for f in $HOME/.config/bash/*.bashrc
+    do
+        . "$f"
+    done
 fi
 
-. $HOME/.config/bash/prompt
-. $HOME/.config/bash/history_conf
-. $HOME/.config/bash/alias_general
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
