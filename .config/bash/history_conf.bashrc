@@ -8,6 +8,9 @@
       history -d $last
     }
 
+    ## increase size of bash history
+    export HISTSIZE=5000
+    export HISEFILESIZE=5000
     ## ignore dublicates, ignore commands starting with space
     export HISTCONTROL=erasedups:ignorespace
     ## append instead of replace history file (history from multiple terminals)
