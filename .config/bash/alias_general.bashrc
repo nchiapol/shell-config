@@ -20,9 +20,9 @@ alias ll="ls -Al"
 alias du="du -h"
 alias df="df -h"
 
-if $(command -v kde-open > /dev/null 2>&1 || exit 1;)
+if $(command -v xdg-open > /dev/null 2>&1 || exit 1;)
 then
-    alias open="kde-open 2> /dev/null > /dev/null"
+    alias open="xdg-open 2> /dev/null > /dev/null"
 fi
 
 ## useful commands
