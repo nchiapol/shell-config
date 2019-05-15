@@ -15,7 +15,7 @@ alias mkdir="mkdir -p"
 
 alias cd..="cd .."
 alias ..="cd .."
-alias ll="ls -Al"
+alias ll="ls -al"
 
 alias du="du -h"
 alias df="df -h"
