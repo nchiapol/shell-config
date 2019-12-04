@@ -6,6 +6,10 @@ alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
 
+## don't let tee give up easily
+## see http://notes.secretsauce.net/notes/2019/12/03_tee-is-broken.html
+alias tee="tee -p"
+
 ## more useful aliases
 COLOR_OPTION="--color=auto"
 alias ls="ls -h $COLOR_OPTION"
