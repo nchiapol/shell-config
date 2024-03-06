@@ -14,7 +14,7 @@ else
     cyan='\e[1;36m'
 
     # Test connection type:
-    if pstree -ps $$ | grep -q sshd
+    if pstree -s $$ | grep -q -e sshd -e mosh-server
     then
         CNX=${cyan}      # Connected on remote machine, via ssh (good).
     else

@@ -17,6 +17,7 @@ alias grep="grep $COLOR_OPTION"
 
 alias mkdir="mkdir -p"
 
+#alias cd="pushd"  # prevents `cd` from switching to $HOME
 alias cd..="cd .."
 alias ..="cd .."
 alias ll="ls -al"
