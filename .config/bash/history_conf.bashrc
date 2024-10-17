@@ -13,6 +13,8 @@
     export HISEFILESIZE=5000
     ## ignore dublicates, ignore commands starting with space
     export HISTCONTROL=erasedups:ignorespace
+    ## add timestamps to history
+    export HISTTIMEFORMAT="%g-%m-%d %H:%M "
     ## append instead of replace history file (history from multiple terminals)
     shopt -s histappend
     ## purge dups from historyfile whenever a new shell is opened and reload history (multiple terminals)
