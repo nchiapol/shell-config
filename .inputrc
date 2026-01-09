@@ -9,3 +9,6 @@ set editing-mode vi
 set show-all-if-ambiguous on
 set completion-ignore-case on
 set completion-map-case on
+
+## do not highlight pasted content
+set enable-active-region off
